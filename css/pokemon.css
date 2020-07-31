@@ -1,0 +1,247 @@
+/*Fuentes de Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+/*VARIABLES CSS*/
+:root {
+	--borderShadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+	--subTitulo: 30pt;
+	--fuente: "Open Sans", sans-serif;
+	--rojoPokemon: #e66550;
+	--pikachu: #ffd73e;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p::selection,
+h1::selection,
+h2::selection,
+b::selection,
+li::selection,
+footer::selection {
+	color: white;
+	background-color: var(--pikachu);
+}
+
+body {
+	background-color: #7aeefd;
+	font-family: var(--fuente);
+}
+
+header {
+	padding: 10px;
+	background-color: var(--rojoPokemon);
+	text-align: center;
+}
+
+section {
+	color: white;
+	margin: 15px;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 50pt;
+	text-align: center;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+	margin-bottom: 20px;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+section p:nth-child(1) {
+	font-size: 18pt;
+}
+
+p {
+	text-align: justify;
+	font-size: 18pt;
+	color: black;
+}
+
+article {
+	margin-top: 30px;
+}
+
+/*INTRODUCCIÓN Y HEADER*/
+
+.introduccion {
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+
+.imagenPresentacion {
+	display: block;
+	margin: auto;
+	border-radius: 5px;
+	box-shadow: var(--borderShadow);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.imagenPortada {
+	margin: 5px;
+	padding: 5px;
+	box-shadow: var(--borderShadow);
+	border-radius: 20px;
+}
+
+.b {
+	margin: 20px;
+}
+
+/* PERSONAJES */
+
+.personajes {
+	font-size: var(--subTitulo);
+	text-align: center;
+	width: 100%;
+}
+
+.personajes h2 {
+	position: relative;
+	margin-right: 20px;
+}
+
+.personajes ul {
+	padding: 5px;
+	list-style: none;
+	display: flex;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	background-color: var(--rojoPokemon);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+	background-color: var(--rojoPokemon);
+	border-radius: 0px 0px 5px 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	background-color: white;
+}
+
+.personajes ul li {
+	font-size: 20pt;
+	background-color: #f99d4e;
+	border-radius: 8px;
+	padding: 30px;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.personajes ul li img {
+	display: block;
+	height: 300px;
+	width: fit-content;
+	max-width: 200px;
+	margin-bottom: 20px;
+}
+
+/*CARRUSEL*/
+.controles {
+	padding-top: 14%;
+	position: absolute;
+}
+
+.carrusel {
+	background-color: var(--rojoPokemon);
+	padding: 5px;
+	width: 55px;
+	display: inline-block;
+	border-radius: 100%;
+}
+
+.izquierda {
+	margin-right: 88vw;
+}
+
+.derecha {
+	float: right;
+}
+
+/*MODAL con etiquetas*/
+
+.personajes ul li button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: var(--fuente);
+	font-weight: bolder;
+	border-radius: 5px;
+	background-color: #ffd73e;
+	color: black;
+	text-transform: uppercase;
+	border-color: black;
+	cursor: pointer;
+	margin-bottom: 10px;
+	display: none; /*Por el momento no*/
+}
+/*
+
+.personajes ul li button:hover {
+	background-color: #e66550;
+	color: aliceblue;
+} */
+
+/* 
+.personajes ul li button:focus ~ .personajes ul li p {
+	display: block;
+}
+*/
+
+.personajes ul li p {
+	font-size: 14pt;
+	display: none;
+}
+
+/*TIPO DE PROGRAMA*/
+
+.tipo-programa h2 {
+	text-align: center;
+	font-size: var(--subTitulo);
+}
+
+.tipo-programa ul {
+	list-style: none;
+	text-align: center;
+}
+
+.tipo-programa ul li {
+	background-color: tomato;
+	display: inline-block;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bolder;
+	font-family: var(--fuente);
+	box-shadow: var(--borderShadow);
+	cursor: default;
+}
+
+.tipo-programa ul li:hover {
+	background-color: salmon;
+}
+
+/* FOOTER */
+footer {
+	background-color: var(--rojoPokemon);
+	height: 100px;
+}
+
+footer {
+	color: snow;
+	text-align: center;
+	font-weight: 900;
+	padding-top: 55px;
+	font-size: 20pt;
+}
