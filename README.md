@@ -10,4 +10,4 @@ Comparto una tarea que se me asignó de CSS y en el cual aprendí mucho.
 
 ## Disfrútalo
 
-![](https://media.giphy.com/media/lOa0tPKiMLdqVdFiS8/giphy.gif)
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/lOa0tPKiMLdqVdFiS8" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/448studio-ryan-renolds-detective-pickachu-full-lOa0tPKiMLdqVdFiS8">via GIPHY</a></p>
