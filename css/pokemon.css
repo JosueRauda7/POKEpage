@@ -82,6 +82,7 @@ article {
 	box-shadow: var(--borderShadow);
 	margin-top: 20px;
 	margin-bottom: 20px;
+	width: 100%;
 }
 
 .imagenPortada {
