@@ -10,4 +10,4 @@ Comparto una tarea que se me asignó de CSS y en el cual aprendí mucho.
 
 ## Disfrútalo
 
-![](https://media.tenor.com/images/010722479ec0e746d2f44689e7753503/tenor.gif)
+<img src="https://media.tenor.com/images/010722479ec0e746d2f44689e7753503/tenor.gif" width="500" heigth="500" >
