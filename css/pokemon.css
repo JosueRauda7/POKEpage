@@ -122,7 +122,7 @@ article {
 
 ::-webkit-scrollbar {
 	background-color: var(--rojoPokemon);
-	border-radius: 0px 0px 5px 5px;
+	border-radius: 0 0 5px 5px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -142,7 +142,7 @@ article {
 
 .personajes ul li img {
 	display: block;
-	height: 300px;
+	height: 350px;
 	width: fit-content;
 	max-width: 200px;
 	margin-bottom: 20px;
